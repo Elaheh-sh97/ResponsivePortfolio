@@ -1,0 +1,86 @@
+:root{
+    --font-family:'Marcellus', serif;
+}
+.hero {
+background:linear-gradient(181.2deg, rgb(181, 239, 249) 10.5%, rgb(254, 254, 254) 86.8%);
+text-align: center;
+padding: 80px 20px;
+}
+.contactBtn:hover{
+background-color: white;
+color: #0dcaf0;
+}
+.hero h1{
+    font-family: var(--font-family);
+}
+.hero h2{
+    font-family: var(--font-family);
+}
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+ 
+}
+.InquiryBox{
+    padding:10px 40px ;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+color: #0dcaf0;
+transition: all 0.3s ease-in;
+}
+.navbar img{
+    max-height: 40px;
+}
+.navbar .active{
+color:#0dcaf0;
+}
+.FlowerBody h2{
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.bodyHeadline{
+    font-family: var(--font-family);
+}
+footer{
+    text-align: center;
+}
+footer a{
+    font-family:var(--font-family) ;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.contact a{
+    padding:10px 13px;
+    margin: 5px;
+    background-color: #caf4f9;
+    color:#0095b3 ;
+}
+.LearnBtn:hover{
+background-color: #0dcaf0;
+color:white;
+}
+.about h1,h3{
+    font-family: var(--font-family);
+}
+
+.workPageHeading{
+    font-family: var(--font-family);
+}
+.imageTitle h2{
+    font-family:var(--font-family) ;
+}
+@media only screen and (max-width:767px){
+    .FlowerBody{
+        text-align: center;
+    }
+    
+}
